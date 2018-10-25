@@ -10,7 +10,15 @@ env:
 cache:
   directories:
     - $UNITY_DOWNLOAD_CACHE
-
+    
+skip_commits:
+  files:
+    - .github/*
+    - docs/*
+    - Dockerfile
+    - travis.yml
+    - '**/*.html'
+    - '*.md'
     
 before_install:
 - rvm get stable
