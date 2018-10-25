@@ -37,6 +37,5 @@ deploy:
   file: $DEPLOY_UNITYPACKAGE
   skip_cleanup: true
   overwrite: true
-  name: abcdefg
   on:
     tags: true 
